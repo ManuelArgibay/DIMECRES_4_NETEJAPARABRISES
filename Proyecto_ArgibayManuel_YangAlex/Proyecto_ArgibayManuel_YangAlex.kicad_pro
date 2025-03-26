@@ -273,10 +273,27 @@
         "wire_width": 6
       },
       {
+        "bus_width": 15,
+        "line_style": 1,
+        "name": "Analogic",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgb(0, 255, 4)",
+        "wire_width": 10
+      },
+      {
+        "bus_width": 10,
+        "name": "Digital",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgb(23, 236, 255)",
+        "wire_width": 10
+      },
+      {
         "bus_width": 150,
         "name": "Power_Mot",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 3,
         "schematic_color": "rgb(255, 0, 0)",
         "wire_width": 20
       },
@@ -284,7 +301,7 @@
         "bus_width": 50,
         "name": "Power_Reg",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 2,
         "schematic_color": "rgb(255, 0, 255)",
         "wire_width": 20
       }
@@ -296,7 +313,7 @@
     "netclass_assignments": null,
     "netclass_patterns": [
       {
-        "netclass": "Default",
+        "netclass": "Digital",
         "pattern": "VCC"
       },
       {
@@ -320,11 +337,11 @@
         "pattern": "Bomba"
       },
       {
-        "netclass": "Default",
+        "netclass": "Digital",
         "pattern": "C_R_Bombas_agua"
       },
       {
-        "netclass": "Default",
+        "netclass": "Digital",
         "pattern": "C_R_Calefactor"
       },
       {
@@ -332,15 +349,15 @@
         "pattern": "Calefactor"
       },
       {
-        "netclass": "Default",
+        "netclass": "Digital",
         "pattern": "Int_Bomba_de_Agua"
       },
       {
-        "netclass": "Default",
+        "netclass": "Digital",
         "pattern": "Int_Calefactor"
       },
       {
-        "netclass": "Default",
+        "netclass": "Digital",
         "pattern": "Int_limpiaparabrisas"
       },
       {
@@ -356,11 +373,11 @@
         "pattern": "Net-(D3-K)"
       },
       {
-        "netclass": "Default",
+        "netclass": "Digital",
         "pattern": "Net-(C6-Pad1)"
       },
       {
-        "netclass": "Default",
+        "netclass": "Digital",
         "pattern": "GND"
       },
       {
@@ -374,6 +391,86 @@
       {
         "netclass": "Power_Mot",
         "pattern": "Net-(Q2-Pad2)"
+      },
+      {
+        "netclass": "Power_Mot",
+        "pattern": "GNDPWR"
+      },
+      {
+        "netclass": "Digital",
+        "pattern": "RC6"
+      },
+      {
+        "netclass": "Digital",
+        "pattern": "RC7"
+      },
+      {
+        "netclass": "Digital",
+        "pattern": "SDA"
+      },
+      {
+        "netclass": "Digital",
+        "pattern": "SCL"
+      },
+      {
+        "netclass": "Digital",
+        "pattern": "MCLR"
+      },
+      {
+        "netclass": "Digital",
+        "pattern": "TX1"
+      },
+      {
+        "netclass": "Digital",
+        "pattern": "TX2"
+      },
+      {
+        "netclass": "Digital",
+        "pattern": "PH_M_in2"
+      },
+      {
+        "netclass": "Digital",
+        "pattern": "PH_M_in1"
+      },
+      {
+        "netclass": "Digital",
+        "pattern": "RX"
+      },
+      {
+        "netclass": "Digital",
+        "pattern": "TX"
+      },
+      {
+        "netclass": "Digital",
+        "pattern": "Net-(U6-CANH)"
+      },
+      {
+        "netclass": "Digital",
+        "pattern": "Net-(U6-CANL)"
+      },
+      {
+        "netclass": "Digital",
+        "pattern": "Net-(C10-Pad2)"
+      },
+      {
+        "netclass": "Digital",
+        "pattern": "Net-(U9--IN)"
+      },
+      {
+        "netclass": "Digital",
+        "pattern": "F_C_In1"
+      },
+      {
+        "netclass": "Digital",
+        "pattern": "F_C_Out1"
+      },
+      {
+        "netclass": "Digital",
+        "pattern": "F_C_Out2"
+      },
+      {
+        "netclass": "Digital",
+        "pattern": "F_C_In2"
       }
     ]
   },
