@@ -471,6 +471,14 @@
       {
         "netclass": "Digital",
         "pattern": "F_C_In2"
+      },
+      {
+        "netclass": "Digital",
+        "pattern": "CANL"
+      },
+      {
+        "netclass": "Digital",
+        "pattern": "CANH"
       }
     ]
   },
@@ -608,7 +616,7 @@
     ],
     [
       "4b87e8bb-9014-4438-949a-51563e216ea6",
-      "motors"
+      "Motores"
     ]
   ],
   "text_variables": {}
