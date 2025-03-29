@@ -1,8 +1,4 @@
-View this project on [CADLAB.io](https://cadlab.io/project/29037). 
-
-# DIMECRES_4_NETEJAPARABRISES
-
-# LIMPIA PARABRISAS
+﻿# LIMPIA PARABRISAS
 
 ## Autores
 - ManuelArgibay
@@ -21,7 +17,6 @@ Diseñar una placa PCB que desarrolle la función de limpiaparabrisas de un auto
 
 ## Diagrama de bloques
 
-![Diagrama de Bloques - Proyecto Eines de Disseny](https://github.com/user-attachments/assets/315cc0a8-143b-4e6e-8c83-d00442c4c7e5)
 
 
 
@@ -44,3 +39,4 @@ Diseñar una placa PCB que desarrolle la función de limpiaparabrisas de un auto
 |3|25/03/2025|ManuelArgibay|main|Modificación del esquemático y pptx|
 |4|25/03/2025|ManuelArgibay|main|Agrego net classes, proyecto y presentación |
 |5|25/03/2025|AlexY0916|main|Modifico net classes, fc, GNDPWR, separación botonera |
+
