@@ -479,6 +479,10 @@
       {
         "netclass": "Digital",
         "pattern": "CANH"
+      },
+      {
+        "netclass": "Digital",
+        "pattern": "+3.3V"
       }
     ]
   },
