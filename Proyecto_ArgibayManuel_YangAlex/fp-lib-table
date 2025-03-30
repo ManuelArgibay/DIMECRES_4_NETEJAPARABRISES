@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "HDC2010YPAR")(type "KiCad")(uri "${KIPRJMOD}/Footprint_&_Symbols(Kicad)/HDC2010YPAR")(options "")(descr ""))
+)
