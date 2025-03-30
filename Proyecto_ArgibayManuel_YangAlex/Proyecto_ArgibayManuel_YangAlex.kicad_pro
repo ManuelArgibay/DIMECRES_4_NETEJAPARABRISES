@@ -617,6 +617,14 @@
     [
       "4b87e8bb-9014-4438-949a-51563e216ea6",
       "Motores"
+    ],
+    [
+      "586cebd2-39d7-435a-989d-0b17f5522a13",
+      "Regulador de Tension"
+    ],
+    [
+      "310eabda-5b3c-4ba2-a48d-a60bed009d94",
+      "Buses"
     ]
   ],
   "text_variables": {}
