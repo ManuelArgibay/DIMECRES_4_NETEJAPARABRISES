@@ -707,6 +707,26 @@
       {
         "netclass": "Digital",
         "pattern": "Net-(C5-Pad2)"
+      },
+      {
+        "netclass": "Digital",
+        "pattern": "PGD"
+      },
+      {
+        "netclass": "Digital",
+        "pattern": "PGC"
+      },
+      {
+        "netclass": "Digital",
+        "pattern": "VPP"
+      },
+      {
+        "netclass": "Digital",
+        "pattern": "Net-(J4-Pin_1)"
+      },
+      {
+        "netclass": "Digital",
+        "pattern": "Net-(U4--IN)"
       }
     ]
   },
