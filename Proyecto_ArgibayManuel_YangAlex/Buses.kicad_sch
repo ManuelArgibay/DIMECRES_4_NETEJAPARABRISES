@@ -1202,40 +1202,34 @@
 		(uuid "fb5989ef-ec67-409a-add1-972d42898c99")
 	)
 	(no_connect
-		(at 55.88 44.45)
+		(at 40.64 54.61)
+		(uuid "04c39103-bd00-43b2-8159-a1f4d5b40205")
+	)
+	(no_connect
+		(at 55.88 54.61)
 		(uuid "2cfd58c5-994a-44c6-90d2-09e868c9f024")
 	)
 	(no_connect
-		(at 55.88 41.91)
-		(uuid "4fe66fee-d6c5-472a-9ff1-dc218022307d")
-	)
-	(no_connect
-		(at 55.88 68.58)
-		(uuid "62bff176-c648-49fa-83bc-95af8f672ff5")
-	)
-	(no_connect
-		(at 40.64 60.96)
-		(uuid "74d78537-4175-41b2-b70d-e66d30a46f51")
-	)
-	(no_connect
-		(at 40.64 68.58)
-		(uuid "7b941ad6-f5fe-4b45-9b5c-6d6997da9c5d")
-	)
-	(no_connect
-		(at 55.88 63.5)
-		(uuid "b1094aa7-19df-46c6-b66a-9106f2464b39")
+		(at 40.64 57.15)
+		(uuid "485288fa-0315-417a-b55e-c1e58793ef6f")
 	)
 	(no_connect
 		(at 104.14 50.8)
 		(uuid "b3b1b672-8c11-44bc-9bc7-143f1a214744")
 	)
 	(no_connect
-		(at 40.64 71.12)
-		(uuid "c84186aa-7700-4c79-a99b-d9c245fa45bb")
+		(at 55.88 49.53)
+		(uuid "d010482a-8c3c-466d-a2f1-31beefdfc127")
 	)
-	(no_connect
-		(at 55.88 71.12)
-		(uuid "dac998e8-904b-4d28-ae3e-4dd7664a6e8e")
+	(wire
+		(pts
+			(xy 34.29 57.15) (xy 34.29 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e902e70-86e7-4b00-8e58-d8af41cad237")
 	)
 	(wire
 		(pts
@@ -1246,6 +1240,16 @@
 			(type default)
 		)
 		(uuid "2020827b-6195-4def-ab14-bb116b74d926")
+	)
+	(wire
+		(pts
+			(xy 55.88 52.07) (xy 59.69 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2246148a-3474-4684-9318-ec6807c71609")
 	)
 	(wire
 		(pts
@@ -1276,16 +1280,6 @@
 			(type default)
 		)
 		(uuid "2e9a79a0-8588-4f12-b8b3-7e691a5e853f")
-	)
-	(wire
-		(pts
-			(xy 36.83 63.5) (xy 40.64 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2f95a426-e71a-40c4-afd4-37c20e1bf858")
 	)
 	(wire
 		(pts
@@ -1349,23 +1343,13 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 66.04) (xy 35.56 66.04)
+			(xy 34.29 52.07) (xy 40.64 52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "994f22f7-e1e8-418b-b1db-2a09b0d40d61")
-	)
-	(wire
-		(pts
-			(xy 30.48 39.37) (xy 40.64 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b50e5abc-8008-4cea-b99f-611dcac743bf")
+		(uuid "b31eca8e-2796-45cf-a1a9-772f76cf6bde")
 	)
 	(wire
 		(pts
@@ -1396,16 +1380,6 @@
 			(type default)
 		)
 		(uuid "cd27a617-7eb4-4239-933a-a9ca2ae8e7a4")
-	)
-	(wire
-		(pts
-			(xy 35.56 66.04) (xy 35.56 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d1cedaf7-a954-44c0-8401-683752a0d9e2")
 	)
 	(wire
 		(pts
@@ -1477,50 +1451,6 @@
 		)
 		(uuid "fc0f90ae-9d1e-4173-b912-bf00d803ee68")
 	)
-	(global_label "SDA"
-		(shape input)
-		(at 55.88 39.37 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "1cfbe2ed-3506-486c-94cc-b4bca2a40c3c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 62.4333 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "RC7"
-		(shape input)
-		(at 40.64 44.45 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "249a1922-ef4a-4dc6-973b-5fd3256db8a3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 33.9053 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "VCC"
 		(shape input)
 		(at 115.57 35.56 180)
@@ -1587,7 +1517,7 @@
 			)
 		)
 	)
-	(global_label "SCL"
+	(global_label "VCC"
 		(shape input)
 		(at 40.64 46.99 180)
 		(fields_autoplaced yes)
@@ -1597,31 +1527,9 @@
 			)
 			(justify right)
 		)
-		(uuid "57bc3975-e365-4b6a-ad99-9f8f041e3395")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 34.1472 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VCC"
-		(shape input)
-		(at 40.64 36.83 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
 		(uuid "6a7a0edd-f59c-4c04-be62-fe5ee0a25204")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 34.0262 36.83 0)
+			(at 34.0262 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1677,7 +1585,7 @@
 	)
 	(global_label "CANL"
 		(shape input)
-		(at 36.83 63.5 180)
+		(at 40.64 49.53 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1687,29 +1595,7 @@
 		)
 		(uuid "ac6057b6-1298-4e38-a48e-6f831b2fb016")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 29.1276 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "RC6"
-		(shape input)
-		(at 40.64 41.91 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "bd5a3454-bb00-4945-b80c-0c2b0c80c48c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 33.9053 41.91 0)
+			(at 32.9376 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1721,7 +1607,7 @@
 	)
 	(global_label "CANH"
 		(shape input)
-		(at 55.88 66.04 0)
+		(at 59.69 52.07 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1731,7 +1617,7 @@
 		)
 		(uuid "d450edf0-7db3-48e5-bfb6-4e76d0bcd88a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 63.8848 66.04 0)
+			(at 67.6948 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1743,7 +1629,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 55.88 46.99 0)
+		(at 55.88 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1752,7 +1638,7 @@
 		(fields_autoplaced yes)
 		(uuid "039601d5-2f0e-4c1f-b2f2-4317ffe47e0d")
 		(property "Reference" "#PWR020"
-			(at 55.88 53.34 0)
+			(at 55.88 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1761,7 +1647,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 58.42 48.2599 0)
+			(at 58.42 58.4199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1770,7 +1656,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 55.88 46.99 0)
+			(at 55.88 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1779,7 +1665,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 55.88 46.99 0)
+			(at 55.88 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1788,7 +1674,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 55.88 46.99 0)
+			(at 55.88 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1803,72 +1689,6 @@
 			(project "Proyecto_ArgibayManuel_YangAlex"
 				(path "/b2dde924-33f5-41ab-a1bf-811873450a89/310eabda-5b3c-4ba2-a48d-a60bed009d94"
 					(reference "#PWR020")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 35.56 68.58 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3d15927d-0663-4038-847c-bb82d530ec36")
-		(property "Reference" "#PWR019"
-			(at 35.56 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 34.036 72.898 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 35.56 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 35.56 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 35.56 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "12eb1c3b-0359-4097-82cf-191c0e6510b1")
-		)
-		(instances
-			(project "Proyecto_ArgibayManuel_YangAlex"
-				(path "/b2dde924-33f5-41ab-a1bf-811873450a89/310eabda-5b3c-4ba2-a48d-a60bed009d94"
-					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -2299,7 +2119,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 30.48 39.37 0)
+		(at 34.29 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2307,7 +2127,7 @@
 		(dnp no)
 		(uuid "aad81bb9-bf4e-4f27-ae38-7e1f688e742b")
 		(property "Reference" "#PWR018"
-			(at 30.48 45.72 0)
+			(at 34.29 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2316,7 +2136,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 28.194 38.1 0)
+			(at 32.004 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2325,7 +2145,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 30.48 39.37 0)
+			(at 34.29 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2334,7 +2154,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 30.48 39.37 0)
+			(at 34.29 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2343,7 +2163,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 30.48 39.37 0)
+			(at 34.29 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2365,176 +2185,7 @@
 	)
 	(symbol
 		(lib_id "DB9:DB9")
-		(at 48.26 66.04 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b10b6b57-45c4-46a5-9b59-b2c71aced708")
-		(property "Reference" "X2"
-			(at 48.26 53.594 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "DB9"
-			(at 48.26 56.134 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "DB9:DB9"
-			(at 48.26 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 48.26 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 48.26 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Tripp Lite"
-			(at 48.26 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "Surge Suppressor, Network, For Data/Comm, Inline, Term, Clamp-V 18V | Tripp Lite DB9"
-			(at 48.26 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 48.26 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 48.26 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/DB9/Tripp+Lite/view-part/?ref=snap"
-			(at 48.26 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "DB9"
-			(at 48.26 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 48.26 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/DB9/Tripp+Lite/view-part/?ref=eda"
-			(at 48.26 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "04ffdef8-ced8-4bb6-b163-487d2d25efdf")
-		)
-		(pin "8"
-			(uuid "c8ea4100-5b28-4dc4-8897-6360a922d186")
-		)
-		(pin "2"
-			(uuid "6fe88579-f063-43d4-bf73-d59ebfa15c50")
-		)
-		(pin "7"
-			(uuid "8560b5bf-6488-4f56-92d2-ac878106c24a")
-		)
-		(pin "5"
-			(uuid "d06f2344-aafb-4519-b926-e5f78910db2c")
-		)
-		(pin "1"
-			(uuid "ba3d2529-f10f-434d-88da-a2dcfced7803")
-		)
-		(pin "9"
-			(uuid "d003659e-9e82-487e-afc4-4978ea9ee6f9")
-		)
-		(pin "6"
-			(uuid "4af60366-a5d0-4a0a-9e81-6eee5729fdcc")
-		)
-		(pin "3"
-			(uuid "87bd1413-9e3f-445f-b344-13f17bd5caf1")
-		)
-		(instances
-			(project "Proyecto_ArgibayManuel_YangAlex"
-				(path "/b2dde924-33f5-41ab-a1bf-811873450a89/310eabda-5b3c-4ba2-a48d-a60bed009d94"
-					(reference "X2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "DB9:DB9")
-		(at 48.26 41.91 0)
+		(at 48.26 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2542,7 +2193,7 @@
 		(dnp no)
 		(uuid "c64d7afa-4b3e-4f7c-8d8b-c6fbe8b1b9f3")
 		(property "Reference" "X1"
-			(at 48.26 29.464 0)
+			(at 48.26 39.624 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2550,7 +2201,7 @@
 			)
 		)
 		(property "Value" "DB9"
-			(at 48.26 32.004 0)
+			(at 48.26 42.164 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2558,7 +2209,7 @@
 			)
 		)
 		(property "Footprint" "DB9:DB9"
-			(at 48.26 41.91 0)
+			(at 48.26 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2568,7 +2219,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 48.26 41.91 0)
+			(at 48.26 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2577,7 +2228,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 48.26 41.91 0)
+			(at 48.26 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2586,7 +2237,7 @@
 			)
 		)
 		(property "MF" "Tripp Lite"
-			(at 48.26 41.91 0)
+			(at 48.26 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2596,7 +2247,7 @@
 			)
 		)
 		(property "Description_1" "Surge Suppressor, Network, For Data/Comm, Inline, Term, Clamp-V 18V | Tripp Lite DB9"
-			(at 48.26 41.91 0)
+			(at 48.26 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2606,7 +2257,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 48.26 41.91 0)
+			(at 48.26 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2616,7 +2267,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 48.26 41.91 0)
+			(at 48.26 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2626,7 +2277,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/DB9/Tripp+Lite/view-part/?ref=snap"
-			(at 48.26 41.91 0)
+			(at 48.26 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2636,7 +2287,7 @@
 			)
 		)
 		(property "MP" "DB9"
-			(at 48.26 41.91 0)
+			(at 48.26 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2646,7 +2297,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 48.26 41.91 0)
+			(at 48.26 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2656,7 +2307,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/DB9/Tripp+Lite/view-part/?ref=eda"
-			(at 48.26 41.91 0)
+			(at 48.26 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
