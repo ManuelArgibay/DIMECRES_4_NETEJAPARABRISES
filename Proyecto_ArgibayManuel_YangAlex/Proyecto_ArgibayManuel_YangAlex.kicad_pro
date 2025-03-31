@@ -683,6 +683,30 @@
       {
         "netclass": "Digital",
         "pattern": "+3.3V"
+      },
+      {
+        "netclass": "Digital",
+        "pattern": "Net-(U3--IN)"
+      },
+      {
+        "netclass": "Digital",
+        "pattern": "Net-(U2--IN)"
+      },
+      {
+        "netclass": "Digital",
+        "pattern": "Net-(U7-VDD)"
+      },
+      {
+        "netclass": "Digital",
+        "pattern": "Net-(J5-Pin_1)"
+      },
+      {
+        "netclass": "Digital",
+        "pattern": "Net-(C9-Pad1)"
+      },
+      {
+        "netclass": "Digital",
+        "pattern": "Net-(C5-Pad2)"
       }
     ]
   },
