@@ -1461,7 +1461,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 99.06) (xy 138.43 99.06)
+			(xy 134.62 95.25) (xy 135.89 95.25)
 		)
 		(stroke
 			(width 0)
@@ -1501,7 +1501,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 99.06) (xy 138.43 100.33)
+			(xy 135.89 95.25) (xy 135.89 100.33)
 		)
 		(stroke
 			(width 0)
@@ -1541,7 +1541,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 99.06) (xy 127 99.06)
+			(xy 125.73 95.25) (xy 127 95.25)
 		)
 		(stroke
 			(width 0)
@@ -1588,6 +1588,16 @@
 			(type default)
 		)
 		(uuid "df15408c-eea8-4ef8-ac86-dc39afcf5393")
+	)
+	(wire
+		(pts
+			(xy 125.73 95.25) (xy 125.73 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3f09452-98bb-46aa-9294-b46c8f8b30df")
 	)
 	(wire
 		(pts
@@ -1655,15 +1665,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 138.43 100.33 0)
+		(at 135.89 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "01d9853a-9c8d-4f4b-82a7-9c8fa9e3bc16")
-		(property "Reference" "#PWR027"
-			(at 138.43 106.68 0)
+		(property "Reference" "#PWR028"
+			(at 135.89 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1672,7 +1682,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 135.636 103.378 0)
+			(at 133.096 103.378 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1680,7 +1690,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 138.43 100.33 0)
+			(at 135.89 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1689,7 +1699,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 138.43 100.33 0)
+			(at 135.89 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1698,7 +1708,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 138.43 100.33 0)
+			(at 135.89 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1712,7 +1722,7 @@
 		(instances
 			(project "Proyecto_ArgibayManuel_YangAlex"
 				(path "/b2dde924-33f5-41ab-a1bf-811873450a89/586cebd2-39d7-435a-989d-0b17f5522a13"
-					(reference "#PWR027")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -1728,7 +1738,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "020c43fb-3ce5-4b98-a868-02f38adae818")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR027"
 			(at 137.16 90.17 0)
 			(effects
 				(font
@@ -1778,7 +1788,7 @@
 		(instances
 			(project "Proyecto_ArgibayManuel_YangAlex"
 				(path "/b2dde924-33f5-41ab-a1bf-811873450a89/586cebd2-39d7-435a-989d-0b17f5522a13"
-					(reference "#PWR026")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -1794,7 +1804,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0315ce78-aa28-40d8-8bc5-efde70ca28f6")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR032"
 			(at 186.69 91.44 0)
 			(effects
 				(font
@@ -1844,7 +1854,7 @@
 		(instances
 			(project "Proyecto_ArgibayManuel_YangAlex"
 				(path "/b2dde924-33f5-41ab-a1bf-811873450a89/586cebd2-39d7-435a-989d-0b17f5522a13"
-					(reference "#PWR031")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -2079,7 +2089,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2a4f8883-71cb-4a8f-9330-672146185d9a")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR031"
 			(at 173.99 102.87 0)
 			(effects
 				(font
@@ -2129,7 +2139,7 @@
 		(instances
 			(project "Proyecto_ArgibayManuel_YangAlex"
 				(path "/b2dde924-33f5-41ab-a1bf-811873450a89/586cebd2-39d7-435a-989d-0b17f5522a13"
-					(reference "#PWR030")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -2137,7 +2147,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 130.81 99.06 270)
+		(at 130.81 95.25 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2146,7 +2156,7 @@
 		(fields_autoplaced yes)
 		(uuid "374679c7-62af-4fa7-83ba-89edd5a59ef5")
 		(property "Reference" "R10"
-			(at 130.81 92.71 90)
+			(at 130.81 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2154,7 +2164,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 130.81 95.25 90)
+			(at 130.81 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2162,7 +2172,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 130.81 97.282 90)
+			(at 130.81 93.472 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2171,7 +2181,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 130.81 99.06 0)
+			(at 130.81 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2180,7 +2190,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 130.81 99.06 0)
+			(at 130.81 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2282,7 +2292,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "84bf25e5-efd1-456b-9257-05968c6c0ff0")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR026"
 			(at 128.27 90.17 0)
 			(effects
 				(font
@@ -2332,7 +2342,7 @@
 		(instances
 			(project "Proyecto_ArgibayManuel_YangAlex"
 				(path "/b2dde924-33f5-41ab-a1bf-811873450a89/586cebd2-39d7-435a-989d-0b17f5522a13"
-					(reference "#PWR025")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -2348,7 +2358,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "962baa1f-f9db-42ee-bb92-29b6eb9dc669")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR033"
 			(at 196.85 91.44 0)
 			(effects
 				(font
@@ -2398,7 +2408,7 @@
 		(instances
 			(project "Proyecto_ArgibayManuel_YangAlex"
 				(path "/b2dde924-33f5-41ab-a1bf-811873450a89/586cebd2-39d7-435a-989d-0b17f5522a13"
-					(reference "#PWR032")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -2484,7 +2494,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aeb15869-2f3d-453c-a913-a20cc1c232c4")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR029"
 			(at 148.59 90.17 0)
 			(effects
 				(font
@@ -2534,7 +2544,7 @@
 		(instances
 			(project "Proyecto_ArgibayManuel_YangAlex"
 				(path "/b2dde924-33f5-41ab-a1bf-811873450a89/586cebd2-39d7-435a-989d-0b17f5522a13"
-					(reference "#PWR028")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -2750,7 +2760,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDPWR")
-		(at 124.46 99.06 0)
+		(at 125.73 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2758,8 +2768,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cb7739a8-2120-483d-af59-dd255e0abf1a")
-		(property "Reference" "#PWR024"
-			(at 124.46 104.14 0)
+		(property "Reference" "#PWR025"
+			(at 125.73 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2768,7 +2778,7 @@
 			)
 		)
 		(property "Value" "GNDPWR"
-			(at 124.333 102.87 0)
+			(at 125.603 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2776,7 +2786,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 124.46 100.33 0)
+			(at 125.73 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2785,7 +2795,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.46 100.33 0)
+			(at 125.73 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2794,7 +2804,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 124.46 99.06 0)
+			(at 125.73 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2808,7 +2818,7 @@
 		(instances
 			(project "Proyecto_ArgibayManuel_YangAlex"
 				(path "/b2dde924-33f5-41ab-a1bf-811873450a89/586cebd2-39d7-435a-989d-0b17f5522a13"
-					(reference "#PWR024")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -2823,7 +2833,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cf32abe7-9372-4030-ae37-b69c620df43a")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR030"
 			(at 162.56 102.87 0)
 			(effects
 				(font
@@ -2873,7 +2883,7 @@
 		(instances
 			(project "Proyecto_ArgibayManuel_YangAlex"
 				(path "/b2dde924-33f5-41ab-a1bf-811873450a89/586cebd2-39d7-435a-989d-0b17f5522a13"
-					(reference "#PWR029")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
