@@ -503,7 +503,7 @@
         "name": "Digital",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
-        "schematic_color": "rgb(23, 236, 255)",
+        "schematic_color": "rgb(0, 0, 255)",
         "track_width": 0.2,
         "via_diameter": 0.25,
         "wire_width": 10
@@ -699,11 +699,11 @@
       },
       {
         "netclass": "Digital",
-        "pattern": "CANL"
+        "pattern": "CAN-"
       },
       {
         "netclass": "Digital",
-        "pattern": "CANH"
+        "pattern": "CAN+"
       },
       {
         "netclass": "Digital",
