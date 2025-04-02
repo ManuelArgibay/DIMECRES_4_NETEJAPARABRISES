@@ -510,7 +510,7 @@
       },
       {
         "bus_width": 150,
-        "clearance": 0.5,
+        "clearance": 0.3,
         "name": "Power_Mot",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 3,
@@ -521,7 +521,7 @@
       },
       {
         "bus_width": 50,
-        "clearance": 0.5,
+        "clearance": 0.3,
         "name": "Power_Reg",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2,
