@@ -5061,7 +5061,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 106.68) (xy 162.56 107.95)
+			(xy 162.56 105.41) (xy 162.56 106.68)
 		)
 		(stroke
 			(width 0)
@@ -5351,7 +5351,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 95.25) (xy 162.56 99.06)
+			(xy 162.56 95.25) (xy 162.56 97.79)
 		)
 		(stroke
 			(width 0)
@@ -8186,7 +8186,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 162.56 107.95 0)
+		(at 162.56 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8194,7 +8194,7 @@
 		(dnp no)
 		(uuid "827ef343-9ebb-4999-8a16-0e3de287abd6")
 		(property "Reference" "#PWR013"
-			(at 162.56 114.3 0)
+			(at 162.56 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8203,7 +8203,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 163.068 112.268 0)
+			(at 163.068 110.998 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8211,7 +8211,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 162.56 107.95 0)
+			(at 162.56 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8220,7 +8220,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 162.56 107.95 0)
+			(at 162.56 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8229,7 +8229,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 162.56 107.95 0)
+			(at 162.56 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8588,7 +8588,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 162.56 102.87 0)
+		(at 162.56 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8596,7 +8596,7 @@
 		(dnp no)
 		(uuid "97f6d87f-b61a-4f99-bb20-f2f0c3974405")
 		(property "Reference" "C5"
-			(at 166.624 102.108 0)
+			(at 166.624 100.838 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8604,8 +8604,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "40pF"
-			(at 166.624 104.648 0)
+		(property "Value" "33pF"
+			(at 166.624 103.378 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8614,7 +8614,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 163.5252 106.68 0)
+			(at 163.5252 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8623,7 +8623,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 162.56 102.87 0)
+			(at 162.56 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8632,7 +8632,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 162.56 102.87 0)
+			(at 162.56 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9196,7 +9196,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "40pF"
+		(property "Value" "33pF"
 			(at 151.13 102.8699 0)
 			(effects
 				(font
