@@ -38,5 +38,27 @@ Diseñar una placa PCB que desarrolle la función de limpiaparabrisas de un auto
 |2|25/03/2025|ManuelArgibay|main|Cambio titulo del proyecto|
 |3|25/03/2025|ManuelArgibay|main|Modificación del esquemático y pptx|
 |4|25/03/2025|ManuelArgibay|main|Agrego net classes, proyecto y presentación |
-|5|25/03/2025|AlexY0916|main|Modifico net classes, fc, GNDPWR, separación botonera |
+|5|25/03/2025|AlexY0916|main|Modifico net classes, fc, GNDPWR, separación botonera|
+|6|26/03/2025|AlexY0916|main|Separacion del circuito|
+|7|29/03/2025|ManuelArgibay|main|Agrego presentaciones y archivos|
+|8|29/03/2025|ManuelArgibay|main|Modifico simulaciones del comparador y arreglo esquematico|
+|9|30/03/2025|AlexY0916|main|Ordenar esquematico|
+|10|30/03/2025|AlexY0916|main|Footprint|
+|11|30/03/2025|AlexY0916|main|Arreglar errores con los esquematicos|
+|12|30/03/2025|AlexY0916|main|Empezando a añadir el sensor|
+|13|31/03/2025|AlexY0916|main|Sensor|
+|14|31/03/2025|AlexY0916|main|ICSP|
+|15|31/03/2025|ManuelArgibay|main|Arreglo net classes y agrego DB-9|
+|16|31/03/2025|ManuelArgibay|main|Empiezo layout, cambio footprints y arreglo esquematico|
+|17|01/04/2025|ManuelArgibay|main|Termino layout|
+|18|01/04/2025|ManuelArgibay|main|Arreglo nodos no conectados|
+|19|01/04/2025|AlexY0916|main|Cambio el cristal|
+|20|01/04/2025|AlexY0916|main|Cambio de presentacion, minimas correcciones en el esquematico|
+|21|01/04/2025|AlexY0916|main|Nombrar etiqueta PCB|
+|22|01/04/2025|AlexY0916|main|Cambio en la presentacion|
+|23|02/04/2025|ManuelArgibay|main|Arreglo errores y cambio conector|
+|24|02/04/2025|ManuelArgibay|main|Arreglo errores del DRC. Falta arreglar errores del GNDPWR|
+|25|02/04/2025|ManuelArgibay|main|Preentrega final|
+|26|02/04/2025|ManuelArgibay|main|Agrego cambios|
+|27|07/04/2025|ManuelArgibay|main|Arreglo layout y esqumatico con las correcciones pasadas|
 

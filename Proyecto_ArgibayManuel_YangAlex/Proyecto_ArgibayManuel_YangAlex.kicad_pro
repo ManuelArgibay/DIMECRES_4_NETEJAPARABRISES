@@ -756,6 +756,14 @@
       {
         "netclass": "Digital",
         "pattern": "Net-(C10-Pad1)"
+      },
+      {
+        "netclass": "Power_Reg",
+        "pattern": "Net-(D1-A)"
+      },
+      {
+        "netclass": "Power_Reg",
+        "pattern": "Net-(D2-A)"
       }
     ]
   },
