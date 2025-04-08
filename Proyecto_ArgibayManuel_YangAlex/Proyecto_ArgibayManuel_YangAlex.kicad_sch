@@ -5471,7 +5471,7 @@
 	)
 	(global_label "Motor_derecho_1"
 		(shape input)
-		(at 128.27 45.72 0)
+		(at 128.27 43.18 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5481,7 +5481,7 @@
 		)
 		(uuid "26443d8a-f86c-4773-a927-8d71135aebb7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 147.1602 45.72 0)
+			(at 147.1602 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5537,7 +5537,7 @@
 	)
 	(global_label "Motor_izquierdo_2"
 		(shape input)
-		(at 128.27 27.94 0)
+		(at 128.27 30.48 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5547,7 +5547,7 @@
 		)
 		(uuid "4351115f-d3bc-4f42-8a6c-cd0d766b36ce")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 148.3697 27.94 0)
+			(at 148.3697 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5647,7 +5647,7 @@
 	)
 	(global_label "Motor_Izquierdo_1"
 		(shape input)
-		(at 128.27 30.48 0)
+		(at 128.27 27.94 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5657,7 +5657,7 @@
 		)
 		(uuid "5e680707-da74-4e54-b2cc-b413c47b6f94")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 148.3697 30.48 0)
+			(at 148.3697 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6175,7 +6175,7 @@
 	)
 	(global_label "Motor_derecho_2"
 		(shape input)
-		(at 128.27 43.18 0)
+		(at 128.27 45.72 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6185,7 +6185,7 @@
 		)
 		(uuid "dc93a397-1a8b-4337-a756-72f8ce8a7dd5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 147.1602 43.18 0)
+			(at 147.1602 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
