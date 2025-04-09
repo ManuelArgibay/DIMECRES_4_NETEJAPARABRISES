@@ -764,6 +764,10 @@
       {
         "netclass": "Power_Reg",
         "pattern": "Net-(D2-A)"
+      },
+      {
+        "netclass": "Digital",
+        "pattern": "Net-(U2-VDD)"
       }
     ]
   },
