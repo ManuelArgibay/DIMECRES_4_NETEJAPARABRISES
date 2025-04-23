@@ -4089,6 +4089,16 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 30.48) (xy 162.56 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2676d6d1-655f-45f4-a52e-1acbd765bfff")
+	)
+	(wire
+		(pts
 			(xy 39.37 138.43) (xy 39.37 130.81)
 		)
 		(stroke
@@ -4959,16 +4969,6 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 30.48) (xy 162.56 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ad4a0e7f-482c-437a-993d-37cca4526a51")
-	)
-	(wire
-		(pts
 			(xy 147.32 95.25) (xy 151.13 95.25)
 		)
 		(stroke
@@ -5239,6 +5239,16 @@
 	)
 	(wire
 		(pts
+			(xy 160.02 30.48) (xy 162.56 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca1ffcbe-48cf-4cc3-9e9b-d29c3d5a23c5")
+	)
+	(wire
+		(pts
 			(xy 245.11 74.93) (xy 245.11 57.15)
 		)
 		(stroke
@@ -5266,16 +5276,6 @@
 			(type default)
 		)
 		(uuid "cb7825d0-941b-4372-b788-5fd72fe90faf")
-	)
-	(wire
-		(pts
-			(xy 160.02 30.48) (xy 162.56 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cbdfaa82-c7fe-4377-8f07-91a8c23f0e33")
 	)
 	(wire
 		(pts
@@ -5526,6 +5526,16 @@
 			(type default)
 		)
 		(uuid "f7443e92-2ce0-4537-b981-0397bc8c7ede")
+	)
+	(wire
+		(pts
+			(xy 160.02 27.94) (xy 161.29 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc025add-a039-457b-87e6-97ddee7a957d")
 	)
 	(wire
 		(pts
@@ -6571,7 +6581,7 @@
 	)
 	(global_label "Bomba"
 		(shape input)
-		(at 160.02 27.94 0)
+		(at 161.29 27.94 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6581,7 +6591,7 @@
 		)
 		(uuid "ec2ec475-31b5-4c37-8f87-ff2804e66c0c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 169.4155 27.94 0)
+			(at 170.6855 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7757,8 +7767,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 154.94 40.64 0)
-		(mirror y)
+		(at 154.94 43.18 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7766,7 +7775,7 @@
 		(dnp no)
 		(uuid "3a6259a1-71f1-489c-b718-d982fca895d9")
 		(property "Reference" "J11"
-			(at 154.94 46.736 0)
+			(at 154.94 37.084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7774,7 +7783,7 @@
 			)
 		)
 		(property "Value" "Con_1x2"
-			(at 151.892 42.672 90)
+			(at 151.892 41.148 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7782,7 +7791,7 @@
 			)
 		)
 		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-3-2-5.08_1x02_P5.08mm_Horizontal"
-			(at 154.94 40.64 0)
+			(at 154.94 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7791,7 +7800,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 154.94 40.64 0)
+			(at 154.94 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7800,7 +7809,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 154.94 40.64 0)
+			(at 154.94 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8027,7 +8036,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDPWR")
-		(at 162.56 31.75 0)
+		(at 162.56 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8035,7 +8044,7 @@
 		(dnp no)
 		(uuid "52278595-dba3-4dd8-b9f4-a950416c56a8")
 		(property "Reference" "#PWR015"
-			(at 162.56 36.83 0)
+			(at 162.56 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8044,7 +8053,7 @@
 			)
 		)
 		(property "Value" "GNDPWR"
-			(at 162.306 35.56 0)
+			(at 162.306 36.576 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8052,7 +8061,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 162.56 33.02 0)
+			(at 162.56 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8061,7 +8070,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 162.56 33.02 0)
+			(at 162.56 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8070,7 +8079,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 162.56 31.75 0)
+			(at 162.56 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8228,8 +8237,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
-		(at 123.19 45.72 0)
-		(mirror y)
+		(at 123.19 45.72 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8237,7 +8245,7 @@
 		(dnp no)
 		(uuid "5ce0dd30-d3a4-4ab6-b708-2cc3d71e0ac1")
 		(property "Reference" "J8"
-			(at 124.46 40.386 0)
+			(at 124.46 51.054 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8246,7 +8254,7 @@
 			)
 		)
 		(property "Value" "Conn_01x03"
-			(at 119.634 51.562 90)
+			(at 119.634 39.878 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8435,8 +8443,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 154.94 27.94 0)
-		(mirror y)
+		(at 154.94 30.48 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8444,7 +8451,7 @@
 		(dnp no)
 		(uuid "632b915c-25f2-487a-a97f-f8fa9b4f5c9a")
 		(property "Reference" "J10"
-			(at 154.94 34.036 0)
+			(at 154.94 24.384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8452,7 +8459,7 @@
 			)
 		)
 		(property "Value" "Con_1x2"
-			(at 151.892 29.972 90)
+			(at 151.892 28.448 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8460,7 +8467,7 @@
 			)
 		)
 		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-3-2-5.08_1x02_P5.08mm_Horizontal"
-			(at 154.94 27.94 0)
+			(at 154.94 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8469,7 +8476,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 154.94 27.94 0)
+			(at 154.94 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8478,7 +8485,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 154.94 27.94 0)
+			(at 154.94 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8707,8 +8714,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
-		(at 123.19 30.48 0)
-		(mirror y)
+		(at 123.19 30.48 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8716,7 +8722,7 @@
 		(dnp no)
 		(uuid "6a0c9014-6932-4538-b795-d839aeb6a912")
 		(property "Reference" "J7"
-			(at 124.46 25.146 0)
+			(at 124.46 35.814 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8725,7 +8731,7 @@
 			)
 		)
 		(property "Value" "Conn_01x03"
-			(at 119.888 35.814 90)
+			(at 119.888 25.146 90)
 			(effects
 				(font
 					(size 1.27 1.27)

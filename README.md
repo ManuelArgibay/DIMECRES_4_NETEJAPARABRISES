@@ -60,5 +60,14 @@ Diseñar una placa PCB que desarrolle la función de limpiaparabrisas de un auto
 |24|02/04/2025|ManuelArgibay|main|Arreglo errores del DRC. Falta arreglar errores del GNDPWR|
 |25|02/04/2025|ManuelArgibay|main|Preentrega final|
 |26|02/04/2025|ManuelArgibay|main|Agrego cambios|
-|27|07/04/2025|ManuelArgibay|main|Arreglo layout y esqumatico con las correcciones pasadas|
+|27|07/04/2025|ManuelArgibay|main|Arreglo layout y esquematico con las correcciones pasadas|
+|28|07/04/2025|AlexY0916|main|Separacion de la botonera|
+|29|07/04/2025|AlexY0916|main|Cambio de valor los condensadores del oscilador|
+|30|07/04/2025|AlexY0916|main|Cambio diagrama de bloques|
+|31|08/04/2025|AlexY0916|main|Reglas de diseño|
+|32|08/04/2025|AlexY0916|main|Cambiar esquematico|
+|33|08/04/2025|AlexY0916|main|Cambio de la PCB (cambio de conectores)|
+|34|09/04/2025|AlexY0916|main|Layout|
+|35|09/04/2025|AlexY0916|main|Cambio del sensor|
+|36|23/04/2025|ManuelArgibay|main|Arreglo layout y esquematico (DRC correcto)|
 
