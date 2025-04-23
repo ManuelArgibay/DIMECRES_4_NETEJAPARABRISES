@@ -19489,7 +19489,6 @@
 			)
 		)
 		(property ki_fp_filters "*SSOP*4.4x6.5mm*P0.65mm*")
-		(path "/a6ca88c8-5311-4a0c-817d-369b9091c126")
 		(sheetname "/")
 		(sheetfile "Proyecto_ArgibayManuel_YangAlex.kicad_sch")
 		(attr smd)
